@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helping Hands - Together We Uplift</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li class="has-dropdown">
+      <a href="#causes">Our Causes</a>
+      <ul class="dropdown">
+        <li><a href="#causes">Where We Work</a></li>
+        <li><a href="#donate">Programmes</a></li>
+        <li><a href="#location">Our Office</a></li>
+      </ul>
+    </li>
+    <li><a href="#donate">Donate / Volunteer</a></li>
+    <li><a href="#signin">Sign In / Sign Up</a></li>
+    <li><a href="#caption">Tools</a></li>
+    <li><a href="#media">Gallery</a></li>
+    <li><a href="#location">Location</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header>
+  <div class="logo">
+    <img src="logo.png" alt="Helping Hands Logo">
+  </div>
+  <h1>Helping Hands</h1>
+  <p>Nurturing Communities, One Life at a Time</p>
+</header>
+
+<div class="container">
+
+  <!-- Hero -->
+  <section class="hero" id="causes">
+    <div class="hero-banner">
+      <h2>Every Small Act Builds a Bigger Tomorrow</h2>
+      <p>Helping Hands works with underserved communities across Tamil Nadu, providing education, healthcare,
+         nutrition and disaster relief so that no child or family is left behind.</p>
+    </div>
+    <div class="stat-box">12,400+ Children Educated</div>
+    <div class="stat-box">86 Villages Reached</div>
+    <div class="stat-box">3,200 Meals Served Daily</div>
+    <div class="stat-box">15 Years of Service</div>
+
+    <!-- Causes Table -->
+    <h2>Where Your Contribution Goes</h2>
+    <p>Every rupee is tracked and reported back to our donors every quarter.</p>
+    <table>
+      <tr><th>Programme</th><th>Beneficiary</th><th>Impact Duration</th><th>Cost / Unit</th></tr>
+      <tr><td>School Kit Sponsorship</td><td>1 Child</td><td>1 Academic Year</td><td>&#8377;800</td></tr>
+      <tr><td>Mid-Day Meal Support</td><td>1 Child</td><td>1 Month</td><td>&#8377;450</td></tr>
+      <tr><td>Rural Health Camp</td><td>1 Village</td><td>1 Day Camp</td><td>&#8377;12,000</td></tr>
+      <tr><td>Elderly Care Kit</td><td>1 Senior Citizen</td><td>3 Months</td><td>&#8377;1,200</td></tr>
+      <tr><td>Disaster Relief Ration</td><td>1 Family</td><td>1 Week</td><td>&#8377;900</td></tr>
+    </table>
+  </section>
+
+  <!-- Our Programmes (card section) -->
+  <section class="programmes">
+    <div class="programme-card">
+      <h3>School Kits</h3>
+      <p>We provide books, uniforms, shoes, and stationery to children from low-income families, covering their full academic year so that cost is never the reason a child misses school.</p>
+    </div>
+    <div class="programme-card">
+      <h3>Mid-Day Meals</h3>
+      <p>Every day, we serve a nutritious, freshly cooked meal to children in our partner schools, so no child has to study, play, or grow on an empty stomach.</p>
+    </div>
+    <div class="programme-card">
+      <h3>Health Camps</h3>
+      <p>Our medical teams travel to rural villages to run free health check-up camps, offering basic diagnostics, consultations, and medicines to families with little access to healthcare.</p>
+    </div>
+    <div class="programme-card">
+      <h3>Disaster Relief</h3>
+      <p>When floods, cyclones, or other emergencies strike, we deliver emergency food rations, clean water, and essential supplies directly to affected families within hours.</p>
+    </div>
+    <div class="programme-card">
+      <h3>Elderly Care Kits</h3>
+      <p>We support senior citizens living alone or in low-income households with essential care kits covering nutrition, hygiene, and basic medical needs for three months at a time.</p>
+    </div>
+  </section>
+
+  <!-- Sign In / Sign Up -->
+  <section class="form-section" id="signin">
+    <div class="form-box">
+      <h2>Sign In</h2>
+      <form>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your password">
+        <input type="submit" value="Sign In">
+      </form>
+    </div>
+    <div class="form-box">
+      <h2>Sign Up</h2>
+      <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+        <label>Phone:</label>
+        <input type="tel" placeholder="Enter your phone number">
+        <label>Password:</label>
+        <input type="password" placeholder="Create password">
+        <input type="submit" value="Sign Up">
+      </form>
+    </div>
+  </section>
+
+  <!-- Donate / Volunteer Form -->
+  <section class="section" id="donate">
+    <h2>Donate or Volunteer With Us</h2>
+    <p>Fill in the form below and our team will reach out within 48 hours.</p>
+    <form>
+      <fieldset>
+        <legend>Your Details</legend>
+        <label>Full Name:</label><br>
+        <input type="text" name="name" placeholder="Your name" pattern="[A-Za-z ]+" maxlength="50"><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="Your email" maxlength="100"><br>
+        <label>Phone:</label><br>
+        <input type="tel" name="phone" placeholder="Your phone number" pattern="[0-9]{10}" maxlength="10"><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Contribution Details</legend>
+        <label>I want to:</label><br><br>
+        <input type="radio" name="mode" value="donate"> Donate &nbsp;
+        <input type="radio" name="mode" value="volunteer"> Volunteer &nbsp;
+        <input type="radio" name="mode" value="both"> Both
+        <br><br>
+
+        <label>Select Programme:</label><br>
+        <select name="programme">
+          <option>School Kit Sponsorship</option>
+          <option>Mid-Day Meal Support</option>
+          <option>Rural Health Camp</option>
+          <option>Elderly Care Kit</option>
+          <option>Disaster Relief Ration</option>
+        </select><br>
+
+        <label>Donation Amount (&#8377;):</label><br>
+        <input type="number" name="amount" min="100" max="1000000" placeholder="e.g. 1000"><br>
+
+        <label>Preferred Visit Date:</label><br>
+        <input type="date" name="date" min="2026-08-04" max="2027-12-31"><br>
+
+        <label>Areas of Interest:</label><br><br>
+        <input type="checkbox" name="edu"> Education<br>
+        <input type="checkbox" name="health"> Healthcare<br>
+        <input type="checkbox" name="relief"> Disaster Relief<br><br>
+
+        <label>Message:</label><br>
+        <textarea rows="4" name="notes" placeholder="Tell us how you'd like to help..." maxlength="500"></textarea>
+      </fieldset>
+
+      <input type="submit" value="Submit" class="btn">
+      <input type="reset" value="Clear" class="btn">
+    </form>
+  </section>
+
+  <!-- Media -->
+  <section class="media-box" id="media">
+    <h2>Stories From The Field</h2>
+    <p>Watch how a small donation changes a child's year.</p>
+    <video controls>
+      <source src="Video.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section class="media-box">
+    <h2>Voices of Helping Hands</h2>
+    <p>Hear from our founder about our journey so far.</p>
+    <audio controls>
+      <source src="Audio.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <!-- Map + Contact side by side -->
+  <div class="side-by-side">
+    <section class="section" id="location">
+      <h2>Find Our Office</h2>
+      <p>Helping Hands, Coimbatore.</p>
+      <iframe src="https://www.google.com/maps?q=Karunya+Institute+of+Technology+and+Sciences,+Karunya+Nagar,+Coimbatore,+Tamil+Nadu+641114&output=embed" title="Helping Hands Office Location"></iframe>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact Helping Hands</h2>
+      <p><b>Email:</b> care@helpinghands.org</p>
+      <p><b>Phone:</b> +91 9999999999</p>
+      <p><b>Hours:</b> Mon - Sat, 9 AM - 6 PM</p>
+      <p><b>Location:</b> Coimbatore, Tamil Nadu</p>
+    </section>
+  </div>
+
+  <!-- ===== JavaScript Tools ===== -->
+
+  <!-- 1. Shortest and longest word -->
+  <section class="section" id="caption">
+    <h2>Slogan Word Finder</h2>
+    <p>Find the shortest and longest word in a campaign slogan.</p>
+    <label>Slogan:</label><br>
+    <input type="text" id="text" value="Every Small Act Builds a Bigger Tomorrow"><br>
+    <input type="button" value="Find Words" class="btn" onclick="findWords();">
+    <p><b>Shortest:</b> <span id="shortest"></span></p>
+    <p><b>Longest:</b> <span id="longest"></span></p>
+  </section>
+
+  <!-- 2. BMI -->
+  <div class="side-by-side" id="bmi">
+    <section class="section">
+      <h2>BMI Checker</h2>
+      <p>A quick check used at our free health camps.</p>
+      <label>Weight (in kilograms):</label><br>
+      <input type="text" id="weight" placeholder="e.g. 68"><br>
+      <label>Height (in meters):</label><br>
+      <input type="text" id="height" placeholder="e.g. 1.72"><br>
+      <input type="button" value="Get BMI" class="btn" onclick="calculate();">
+      <p><b>Your BMI is:</b> <span id="score"></span></p>
+      <p><b>Your body type is:</b> <span id="type"></span></p>
+    </section>
+
+    <section class="section">
+      <h2>BMI Chart</h2>
+      <table>
+        <tr><th>Body Type</th><th>BMI Range</th></tr>
+        <tr id="row-Underweight"><td>Underweight</td><td>Below 18</td></tr>
+        <tr id="row-Normal"><td>Normal</td><td>18 - 25</td></tr>
+        <tr id="row-Overweight"><td>Overweight</td><td>25 - 30</td></tr>
+        <tr id="row-Obese"><td>Obese</td><td>Above 30</td></tr>
+      </table>
+    </section>
+  </div>
+
+  <!-- 3. Tree planting grid -->
+  <section class="section" id="garden-section">
+    <h2>Tree Plantation Planner</h2>
+    <p>Each spot randomly gets a sapling or a grown tree.</p>
+    <label>Rows:</label><br>
+    <input type="text" id="rows" placeholder="e.g. 3"><br>
+    <label>Columns:</label><br>
+    <input type="text" id="columns" placeholder="e.g. 5"><br>
+    <input type="button" value="Plant Trees" class="btn" onclick="grow();">
+    <p id="garden">Enter rows and columns to plan the plantation.</p>
+  </section>
+
+  <!-- 4. Currency converter -->
+  <div class="side-by-side" id="converter">
+    <section class="section">
+      <h2>Donation Converter</h2>
+      <p>Help overseas donors see our rupee amounts in dollars.</p>
+      <label>Amount:</label><br>
+      <input type="text" id="data" placeholder="e.g. 800"><br>
+      <label>From:</label><br>
+      <select id="from">
+        <option value="INR">Indian Rupee</option>
+        <option value="USD">US Dollar</option>
+      </select><br>
+      <label>To:</label><br>
+      <select id="to">
+        <option value="USD">US Dollar</option>
+        <option value="INR">Indian Rupee</option>
+      </select><br>
+      <input type="button" value="Calculate" class="btn" onclick="convert();">
+      <p><b>Converted amount:</b> <span id="answer"></span></p>
+    </section>
+
+    <section class="section">
+      <h2>Conversion Rates</h2>
+      <div class="stat-box">1 Rupee = $0.015</div>
+      <div class="stat-box">1 Dollar = Rs.67.12</div>
+      <p>A School Kit at &#8377;800 is about $12.00 for our overseas donors.</p>
+    </section>
+  </div>
+
+  <!-- 5. Coin flip -->
+  <div class="side-by-side" id="flipper">
+    <section class="section">
+      <h2>Programme Spotlight Flip</h2>
+      <p>Flip to randomly pick Education (heads) or Healthcare (tails) for this week's spotlight.</p>
+      <h3 id="coin">Click Flip to start</h3><br>
+      <input type="button" value="Flip!" class="btn" id="flip">
+    </section>
+
+    <section class="section">
+      <h2>Flip Count</h2>
+      <div class="stat-box">Education (Heads): <span id="num_heads">0</span></div>
+      <div class="stat-box">Healthcare (Tails): <span id="num_tails">0</span></div>
+    </section>
+  </div>
+
+  <!-- 6. Donation calculator -->
+  <div class="side-by-side" id="donate-calc">
+    <section class="section">
+      <h2>Donation Calculator</h2>
+      <p>Choose what you want to sponsor and add an optional extra for running costs.</p>
+      <label># of School Kits:</label><br>
+      <input type="text" id="kits" placeholder="e.g. 2"><br>
+      <label># of Meal Months:</label><br>
+      <input type="text" id="meals" placeholder="e.g. 3"><br>
+      <label># of Elderly Care Kits:</label><br>
+      <input type="text" id="care" placeholder="e.g. 1"><br>
+      <label>Extra for running costs:</label><br><br>
+      <input type="radio" name="extra" value="0"> 0% &nbsp;
+      <input type="radio" name="extra" value="5" checked="checked"> 5% &nbsp;
+      <input type="radio" name="extra" value="10"> 10%
+      <br><br>
+      <input type="button" value="Calculate Donation" class="btn" id="donateBtn">
+    </section>
+
+    <section class="section">
+      <h2>Price List</h2>
+      <table>
+        <tr><th>Programme</th><th>Impact</th><th>Cost</th></tr>
+        <tr><td>School Kit</td><td>1 Child, 1 Year</td><td>&#8377;800</td></tr>
+        <tr><td>Mid-Day Meals</td><td>1 Child, 1 Month</td><td>&#8377;450</td></tr>
+        <tr><td>Elderly Care Kit</td><td>1 Senior, 3 Months</td><td>&#8377;1,200</td></tr>
+      </table>
+      <p><b>Total donation:</b> <span id="price"></span></p>
+      <p id="details"></p>
+    </section>
+  </div>
+
+</div>
+
+<footer>
+  <p>Helping Hands NGO. All Rights Reserved.(URK24CS1276)</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
